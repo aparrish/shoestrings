@@ -1,0 +1,6 @@
+env
+__pycache__
+.ipynb_checkpoints
+*.swp
+archive
+*.egg-info
