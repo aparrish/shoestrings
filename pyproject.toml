@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "0.0.1"
+name = "shoestrings"
+authors = [
+  { name="Allison Parrish", email="allison@decontextualize.com" },
+]
+description = "markov chain text generation library"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+    "numpy",
+    "scipy"
+]
+
+[project.urls]
+Homepage = "https://github.com/aparrish/shoestrings"
+
